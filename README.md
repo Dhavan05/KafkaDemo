@@ -11,8 +11,9 @@ Step 2: Start the server
 
 Step 3: Create a topic
 > bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
-  To List Topics
-  > bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+  
+To List Topics
+> bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 
 Step 4: Producer - Send message
 > bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic test
